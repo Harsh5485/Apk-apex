@@ -1,0 +1,6 @@
+{
+  "name": "Apex Stream",
+  "description": "Premium Movies and Web Series streaming app powered by Apex DRM server with high-speed playback, multi-quality streams, and search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

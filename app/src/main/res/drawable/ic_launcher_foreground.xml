@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center badge rounded hexagon with 66dp boundary (from x=24..84, y=24..84) -->
+    <!-- Hexagonal outer badge -->
+    <path
+        android:pathData="M54,27 L78,41 L78,67 L54,81 L30,67 L30,41 Z"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="30"
+                android:startY="27"
+                android:endX="78"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00F2FE" />
+                <item android:offset="1.0" android:color="#FF4FACFE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bold Play Triangle in center -->
+    <path
+        android:pathData="M48,43 L68,54 L48,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="43"
+                android:endX="68"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="1.0" android:color="#FFE0F2FE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Lightning Accent inside play button -->
+    <path
+        android:pathData="M55,42 L47,54 L53,54 L51,64 L60,51 L54,51 Z"
+        android:fillColor="#8000F2FE" />
+</vector>
